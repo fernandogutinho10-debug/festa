@@ -1,27 +1,14 @@
-// ============================================================
-//  CONFIGURAÇÃO DA FESTA — este é o único arquivo que você edita
-// ============================================================
-
-// 1) Cole aqui o "firebaseConfig" que o Firebase mostra quando você
-//    cria o app da Web (Configurações do projeto > Seus apps).
-//    Enquanto "apiKey" estiver vazio, o site roda em MODO DEMONSTRAÇÃO
-//    (os dados ficam só no seu aparelho, servem apenas para testar).
 export const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+  apiKey: "AIzaSyDQ•••••••••••••••••••••••••••••••",
+  authDomain: "festa-na-casa.firebaseapp.com",
+  projectId: "festa-na-casa",
+  storageBucket: "festa-na-casa.firebasestorage.app",
+  messagingSenderId: "743497575335",
+  appId: "1:743497575335:web:61d5359c7bb9637bab6482"
 };
 
-// 2) O e-mail do organizador (o mesmo que você cadastrar em
-//    Authentication > Users no Firebase). Use o mesmo e-mail
-//    no arquivo firestore.rules.
-export const ADMIN_EMAIL = "";
+export const ADMIN_EMAIL = "fernando.gutinho10@gmail.com";
 
-// 3) Informações que aparecem antes de você salvar algo pelo painel.
-//    Depois de salvar no painel do organizador, valem as do painel.
 export const EVENT_DEFAULTS = {
   title: "Festa na Casa",
   desc: "Dois dias de festa! Confirme a presença, escolha o que vai levar e vote nas bebidas.",
@@ -36,7 +23,6 @@ export const EVENT_DEFAULTS = {
   label50: "Festa + bebidas"
 };
 
-// Lista inicial (o organizador cria com um toque no painel)
 export const DEFAULT_ITEMS = [
   "Gelo (2 sacos)", "Carvão", "Carne / linguiça", "Pão de alho",
   "Salgadinhos", "Copos e pratos descartáveis", "Guardanapos", "Caixa de som"
